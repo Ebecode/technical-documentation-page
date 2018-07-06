@@ -1,0 +1,43 @@
+body, html {
+	margin: 0;
+	padding: 0;
+
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+/*Navigation*/
+#navbar {
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	z-index: 1;
+	overflow-y: auto;
+
+	background-color: #222;
+	color: #fff;
+}
+
+#navbar .nav-link {
+	display: block;
+
+	padding: 10px;
+	border-bottom: 2px solid #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	background-color: #444;
+}
+/*Main*/
+#main-doc {
+	margin-left: 250px;
+	padding: 30px 50px;
+	background-color: #fff;
+	color: #000;
+
+	text-align: justify;
+
+}
