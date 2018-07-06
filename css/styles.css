@@ -6,7 +6,12 @@ body, html {
 	line-height: 1.5;
 	font-family: sans-serif;
 }
-
+code {
+	background-color: #222;
+	color: #fff;
+	padding: 0px 5px;
+	border-radius: 3px;
+}
 /*Navigation*/
 #navbar {
 	width: 250px;
