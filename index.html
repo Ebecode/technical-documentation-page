@@ -76,6 +76,13 @@
 				<h2 id="functions">Functions</h2>
 			</header>
 			<p>Functions are sets of programming expressions you can reuse. Instead of typing several lines of code needed to get a certain result over and over again, these can be stored within a function. And every time you need to use those lines of code, you just have to call or <em>invoke</em> that function.</p>
+			<p>This is how you create a basic function: <code>function anyName() {//first expression<br>//second expression<br>//third expression} </code></p>
+			<p>And this is how you invoke a function: <code>anyName();</code></p>
+			<p>Most functions have a set of <em>parameters</em>, these are placeholders that go between the parenthesis beside the name of the function. The values you replace those parameters with are called <em>arguments</em>. The function will then use those arguments to perform its calculations. Also, functions may have a <em>return value</em>. This is the part of the the function process that you wish to output as a result of calling the function.</p>
+			<p>Example: <code>function randInt(min,max) {
+					return ((Math.random()-0.5) * (max - min)) + min;
+				}</code></p>
+			<p>The previous example takes in a set of aminimum vand a maximum desired value as arguments. Using those arguments, the function will return the result of a mathematical calculation that should generate a random number between those two arguments.</p>
 		</section>
 
 		<section class="main-section">
